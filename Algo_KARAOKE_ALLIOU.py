@@ -181,17 +181,3 @@ while Player :
 
 
 
-
-class Chapitre :
-    def __init__(self, gold, hp, txt, links) :
-        self.__orGagne = gold
-        self.__pvPerdus = hp
-        self.__texte = txt
-        self.__listeLiens = links
-    def getOrGagne(self):
-        return self.__orGagne
-    def getPvPerdus(self) :
-        return self.__pvPerdus
-    def getTexte(self) :
-        return self.__texte
-    def getListeLiens(self) 
